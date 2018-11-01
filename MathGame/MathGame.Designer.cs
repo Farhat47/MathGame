@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -88,7 +89,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(83, 159);
+            this.label5.Location = new System.Drawing.Point(81, 148);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(207, 13);
             this.label5.TabIndex = 5;
@@ -96,7 +97,7 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(387, 183);
+            this.ClientSize = new System.Drawing.Size(387, 174);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
@@ -104,6 +105,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Math Game";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyisDown);
